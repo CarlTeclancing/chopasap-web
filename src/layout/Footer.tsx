@@ -58,12 +58,12 @@ const Footer = () => {
                 <li>Pasta near me</li>
                 <li>Rice near me</li>
                 <li>Fast food near me</li>
-                <li>Asian food in Lagos</li>
-                <li>African food in Lagos</li>
-                <li>Breakfast menu in Lagos</li>
-                <li>Fitfam stores in Lagos</li>
-                <li>American food in Lagos</li>
-                <li>Pastries in Lagos</li>
+                <li>Asian food in Yaounde</li>
+                <li>African food in Yaounde</li>
+                <li>Breakfast menu in Yaounde</li>
+                <li>Fitfam stores in Yaounde</li>
+                <li>American food in Yaounde</li>
+                <li>Pastries in Yaounde</li>
               </ul>
             </div>
 
@@ -73,14 +73,12 @@ const Footer = () => {
               </p>
               <ul className="space-y-3 text-sm md:text-base text-neutral-200">
                 <li>Food delivery</li>
-                <li>Surulere</li>
-                <li>Ogudu</li>
-                <li>Yaba</li>
-                <li>Ikeja</li>
-                <li>Lekki</li>
-                <li>King Glab</li>
-                <li>Korede Spaghetti</li>
-                <li>Iyan Aladuke</li>
+                <li>Dovv</li>
+                <li>Marko fufu</li>
+                <li>Correct Chop</li>
+                <li>TopNotch Aroma</li>
+                <li>Milies Restaurant</li>
+                <li>Mama's Kitchen</li>
               </ul>
             </div>
           </div>
