@@ -1,0 +1,14 @@
+/* Video Background Optimization */
+.video-background-div video {
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .video-background-div video {
+    object-position: center;
+  }
+}
+
