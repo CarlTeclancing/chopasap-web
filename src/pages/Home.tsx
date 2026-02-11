@@ -26,7 +26,6 @@ import slide4 from "../assets/slide4.svg";
 import slide5 from "../assets/slide5.svg";
 import TornDivider from "../components/TornDivider";
 import RestaurantMap from "../components/RestaurantMap";
-import FAQSection from "../components/FAQSection";
 
 const backgroundVideo = "https://www.pexels.com/download/video/6613037/";
 

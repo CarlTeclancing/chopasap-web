@@ -1,5 +1,3 @@
-import React from "react";
-
 type props = {
   flip?: boolean;
   color?: string;

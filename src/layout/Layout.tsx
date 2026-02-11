@@ -1,9 +1,7 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import Header from "./Header";
 import { Outlet, useLocation } from "react-router";
 import Footer from "./Footer";
-import { COLORS } from "../constants/constants";
-import TornDivider from "../components/TornDivider";
 
 const Layout = () => {
   const location = useLocation();

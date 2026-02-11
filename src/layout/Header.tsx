@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import logo from "../assets/logo.png";
 import { COLORS } from "../constants/constants";
 import underlineIcon from "../assets/underline-icon.svg";

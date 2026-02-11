@@ -1,4 +1,4 @@
-import { COLORS, APP_STORE_LINKS } from "../constants/constants";
+import { APP_STORE_LINKS } from "../constants/constants";
 import {
   UtensilsCrossed,
   ShoppingBag,
@@ -8,7 +8,6 @@ import {
   MapPin,
   Shield,
   Sparkles,
-  Smartphone,
   CheckCircle2,
   Apple,
 } from "lucide-react";
@@ -329,7 +328,7 @@ const Services = () => {
                   rel="noopener noreferrer"
                 >
                   <button className="bg-white text-black px-8 py-4 rounded-xl font-bold hover:bg-yellow-400 transition-all duration-300 hover:scale-105 flex items-center justify-center gap-3 border-2 border-white">
-                    <Smartphone className="w-6 h-6" />
+                    <Apple className="w-6 h-6" />
                     App Store
                   </button>
                 </a>
