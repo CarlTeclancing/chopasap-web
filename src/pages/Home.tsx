@@ -309,6 +309,19 @@ const Home = () => {
                 App Store
               </button>
             </a>
+            <a
+              href="https://www.app.chopasap.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                className="flex items-center gap-2 px-7 py-4 rounded-lg text-white font-semibold hover:opacity-90 hover:scale-105 transition-all shadow-2xl w-full sm:w-auto"
+                style={{ backgroundColor: COLORS.red }}
+              >
+                <Apple className="w-6 h-6" />
+                Order Online
+              </button>
+            </a>
           </div>
         </div>
         <WaveDivider color="#ffffff" className="absolute bottom-0" />
