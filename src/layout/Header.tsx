@@ -57,14 +57,22 @@ const Header = () => {
                 <img src={verticalLines} className="w-full h-full" />
               </div>
             </div>
+            <div className="flex relative px-2 group">
+              <a href="/contact" className="relative z-10">
+                Contact
+              </a>
+              <div className="container font-bold absolute -top-2 -left-4 h-12 w-22 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <img src={verticalLines} className="w-full h-full" />
+              </div>
+            </div>
           </div>
           <div className="contact-us-container">
-            <a href="/contact">
+            <a href="https://www.app.chopasap.com">
               <button
                 style={{ color: COLORS.red }}
                 className="text-xl font-semibold bg-white rounded-full px-7 py-3 shadow-lg hover:shadow-xl transition-shadow"
               >
-                Contact Us
+                Order Online Now
               </button>
             </a>
           </div>
