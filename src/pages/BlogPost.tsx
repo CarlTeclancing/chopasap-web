@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from "react-router";
+import { useParams, useNavigate } from "react-router-dom";
 import { useBlogStore } from "../store/blogStore";
 import { COLORS, SOCIAL_LINKS } from "../constants/constants";
 import {

@@ -1,4 +1,3 @@
-import FAQSection from "../components/FAQSection";
 import { COLORS, SOCIAL_LINKS } from "../constants/constants";
 import logoSimplified from "../assets/logo-simplified.png";
 import logo from "../assets/logo.png";
@@ -7,11 +6,6 @@ import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 const Footer = () => {
   return (
     <div className="bg-black flex flex-col gap-2 items-center">
-      {/* FAQ Section */}
-      <div className="container w-11/12 relative flex items-center justify-center mb-96">
-        <FAQSection />
-      </div>
-
       {/* Chowdeck-style Footer Section */}
       <section className="w-full text-white">
         <div className="max-w-7xl mx-auto px-6 md:px-10 py-16 md:py-20">
@@ -45,8 +39,32 @@ const Footer = () => {
                 <li>Documentation</li>
                 <li>About</li>
                 <li>Careers</li>
-                <li>FAQs</li>
+                <li>
+                  <a href="/faqs" className="hover:text-white">
+                    FAQs
+                  </a>
+                </li>
                 <li>Blog</li>
+                <li>
+                  <a href="/terms-and-conditions" className="hover:text-white">
+                    Terms &amp; Conditions
+                  </a>
+                </li>
+                <li>
+                  <a href="/privacy-policy" className="hover:text-white">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/refund-policy" className="hover:text-white">
+                    Refund Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="/cancellation-policy" className="hover:text-white">
+                    Cancellation Policy
+                  </a>
+                </li>
               </ul>
             </div>
 

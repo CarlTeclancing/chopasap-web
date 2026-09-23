@@ -53,7 +53,7 @@ const FAQSection: React.FC = () => {
   return (
     <div
       id="faqs"
-      className="bg-white py-8 sm:py-12 md:py-16 lg:py-20 px-3 sm:px-4 md:px-6 w-full absolute rounded-2xl sm:rounded-3xl shadow-xl scroll-mt-32"
+      className="bg-white py-8 sm:py-12 md:py-16 lg:py-20 px-3 sm:px-4 md:px-6 w-full rounded-2xl sm:rounded-3xl shadow-xl scroll-mt-32"
       style={{
         border: `2px solid ${COLORS.brown}`,
       }}

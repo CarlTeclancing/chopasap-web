@@ -42,7 +42,7 @@ const Header = () => {
               </div>
             </div>
             <div className="flex flex-col relative group">
-              <a href="#faqs" className="z-10">
+              <a href="/faqs" className="z-10">
                 FAQs
               </a>
               <div className="container font-bold absolute -top-4 -left-3  h-15 w-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -142,7 +142,7 @@ const Header = () => {
                 Services
               </a>
               <a
-                href="#faqs"
+                href="/faqs"
                 className="text-3xl font-semibold hover:text-gray-300 transition-colors"
                 style={{ color: COLORS.lightBrown }}
                 onClick={() => setIsSidebarOpen(false)}

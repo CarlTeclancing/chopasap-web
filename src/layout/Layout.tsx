@@ -1,6 +1,6 @@
 import  { useEffect } from "react";
 import Header from "./Header";
-import { Outlet, useLocation } from "react-router";
+import { Outlet, useLocation } from "react-router-dom";
 import Footer from "./Footer";
 
 const Layout = () => {
